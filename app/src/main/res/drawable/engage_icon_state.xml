@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@mipmap/ic_engage" android:state_pressed="true"></item>
+    <item
+        android:drawable="@mipmap/ic_engage" android:state_selected="true"></item>
+    <item
+        android:drawable="@mipmap/ic_engage" android:state_activated="true"></item>
+    <item android:drawable="@mipmap/ic_engage_bw" ></item>
+    <!--<item android:state_focused="true" android:state_pressed="true" android:drawable="@mipmap/ic_engage"/>-->
+    <!--<item android:state_selected="true" android:drawable="@mipmap/ic_engage"/>-->
+<!--&lt;!&ndash;-->
+    <!--<item android:state_focused="false" android:state_pressed="true" android:drawable="@mipmap/ic_engage"/>-->
+<!--&ndash;&gt;-->
+<!--&lt;!&ndash;-->
+    <!--<item android:state_focused="true" android:drawable="@mipmap/ic_engage"/>-->
+<!--&ndash;&gt;-->
+    <!--<item android:state_focused="false" android:state_pressed="true" android:drawable="@mipmap/ic_engage"/>-->
+    <!--<item android:state_focused="false" android:state_pressed="false" android:drawable="@mipmap/ic_engage_bw"/>-->
+</selector>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aditya.meditrack.activities.MedicineActivity">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/dimen_60dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_16dp"
+            >
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/medicine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/medicine_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/prompt_medicine_name"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/medicine_from_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/medicine"
+                android:text="From Date"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_20sp"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                />
+
+            <DatePicker
+                android:id="@+id/medicine_from_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/medicine_from_text"
+                android:hint="@string/prompt_medicine_to"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                />
+
+            <TextView
+                android:id="@+id/medicine_to_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/medicine_from_date"
+                android:text="To Date"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_20sp"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                />
+
+            <DatePicker
+                android:id="@+id/medicine_to_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/medicine_to_text"
+                android:hint="@string/prompt_medicine_to"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                />
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/medicine_to_date"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                >
+
+                <RadioButton
+                    android:id="@+id/isDaily"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Daily"
+                    android:onClick="onRadioButtonClicked"
+                    />
+
+                <RadioButton
+                    android:id="@+id/isWeekly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Weekly"
+                    android:onClick="onRadioButtonClicked"
+                    />
+
+                <RadioButton
+                    android:id="@+id/isMonthly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Monthly"
+                    android:onClick="onRadioButtonClicked"
+                    />
+            </RadioGroup>
+
+            <Spinner
+                android:id="@+id/priority_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radio_group"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                />
+
+            <EditText
+                android:id="@+id/medicine_dosage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/priority_spinner"
+                android:inputType="number"
+                android:hint="Enter Dosage"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/add_medicine"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_60dp"
+            android:layout_alignParentBottom="true"
+            app:cardBackgroundColor="@color/light_blue"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ADD MEDICINE"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_22sp"
+                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

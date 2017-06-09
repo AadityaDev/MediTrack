@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When selected, you should use bg with grey -->
+    <item android:drawable="@mipmap/ic_engage" android:state_pressed="true" />
+
+    <item android:drawable="@mipmap/ic_engage" android:state_active="true"></item>
+
+    <item
+        android:drawable="@mipmap/ic_engage" android:state_focused="true"></item>
+    <!--<item-->
+        <!--android:drawable="@mipmap/ic_engage" android:state_activated="true"></item>-->
+
+    <!-- When not selected, you should use bg with white -->
+    <item android:drawable="@mipmap/ic_engage_bw" />
+</selector>

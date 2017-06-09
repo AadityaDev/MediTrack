@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MediTrack</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="medicine_list_text">Medicines</string>
+    <string name="daily_medicine_text">Today</string>
+    <string name="account_text">Account</string>
+    <string name="prompt_medicine_name">Enter Medicine Name</string>
+    <string name="prompt_medicine_to">Select to date</string>
+    <string name="prompt_medicine_from">Select from date</string>
+    <string-array name="priority_array">
+        <item>Normal</item>
+        <item>Medium</item>
+        <item>High</item>\
+    </string-array>
+</resources>

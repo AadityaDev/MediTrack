@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_weight="1"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_24dp"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/contacts_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:ignore="InefficientWeight">
+
+        <ImageView
+            android:id="@+id/contacts_image"
+            android:layout_width="@dimen/dimen_32dp"
+            android:layout_height="@dimen/dimen_32dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_contacts_config"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/contacts_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/account_text"
+            android:textSize="@dimen/text_8sp" />
+    </LinearLayout>
+
+</LinearLayout>

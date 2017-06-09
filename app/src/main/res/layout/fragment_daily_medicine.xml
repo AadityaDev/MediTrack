@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aditya.meditrack.fragments.DailyMedicineFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/search_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="@dimen/dimen_16dp"
+            android:layout_marginLeft="@dimen/dimen_16dp"
+            android:layout_marginRight="@dimen/dimen_16dp"
+            android:layout_marginEnd="@dimen/dimen_16dp"
+            android:layout_marginTop="@dimen/dimen_16dp"
+            android:hint="Search medicine by name"
+            android:lines="1"
+            android:padding="@dimen/dimen_8dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/medicines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/search_box"
+            ></android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+</FrameLayout>

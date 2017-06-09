@@ -1,0 +1,150 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Card specifications-->
+    <dimen name="image_size">80dp</dimen>
+    <dimen name="standard_icon">14dp</dimen>
+    <dimen name="candidate_card_image">28dp</dimen>
+    <dimen name="candidate_card_margin">2dp</dimen>
+    <dimen name="card_image_spacing">12dp</dimen>
+
+    <!--Custom tab specifications-->
+    <dimen name="inner_padding">6dp</dimen>
+    <dimen name="side_dimen">48dp</dimen>
+
+    <!-- Fragment screen - Details -->
+    <dimen name="fragmentscreen_button_marginTop">25dp</dimen>
+    <dimen name="fragment_status_dots_padding">6dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_width">120dp</dimen>
+    <dimen name="linkedin_button">160dp</dimen>
+    <dimen name="smallest_text_margin">2dp</dimen>
+
+    <!--Leaderboard screen-->
+    <dimen name="leaderboard_image">28dp</dimen>
+    <dimen name="contact_card_image">38dp</dimen>
+
+    <dimen name="action_bar_image_size">44dp</dimen>
+
+    <dimen name="text_28sp">28sp</dimen>
+    <dimen name="text_26sp">26sp</dimen>
+    <dimen name="text_24sp">24sp</dimen>
+    <dimen name="text_22sp">22sp</dimen>
+    <dimen name="text_20sp">20sp</dimen>
+    <dimen name="text_18sp">18sp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+    <dimen name="text_15sp">15sp</dimen>
+    <dimen name="text_14sp">14sp</dimen>
+    <dimen name="text_13sp">13sp</dimen>
+    <dimen name="text_12sp">12sp</dimen>
+    <dimen name="text_10sp">10sp</dimen>
+    <dimen name="text_8sp">8sp</dimen>
+
+    <dimen name="dimen_1dp">1dp</dimen>
+    <dimen name="dimen_2dp">2dp</dimen>
+    <dimen name="dimen_3dp">3dp</dimen>
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="dimen_5dp">5dp</dimen>
+    <dimen name="dimen_6dp">6dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_10dp">10dp</dimen>
+    <dimen name="dimen_12dp">12dp</dimen>
+    <dimen name="dimen_14dp">14dp</dimen>
+    <dimen name="dimen_15dp">15dp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+    <dimen name="dimen_18dp">18dp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+    <dimen name="dimen_24dp">24dp</dimen>
+    <dimen name="dimen_25dp">25dp</dimen>
+    <dimen name="dimen_26dp">26dp</dimen>
+    <dimen name="dimen_28dp">28dp</dimen>
+    <dimen name="dimen_30dp">30dp</dimen>
+    <dimen name="dimen_32dp">32dp</dimen>
+    <dimen name="dimen_36dp">36dp</dimen>
+    <dimen name="dimen_38dp">38dp</dimen>
+    <dimen name="dimen_39dp">39dp</dimen>
+    <dimen name="dimen_40dp">40dp</dimen>
+    <dimen name="dimen_42dp">42dp</dimen>
+    <dimen name="dimen_44dp">44dp</dimen>
+    <dimen name="dimen_46dp">46dp</dimen>
+    <dimen name="dimen_48dp">48dp</dimen>
+    <dimen name="dimen_50dp">50dp</dimen>
+    <dimen name="dimen_52dp">52dp</dimen>
+    <dimen name="dimen_56dp">56dp</dimen>
+    <dimen name="dimen_58dp">58dp</dimen>
+    <dimen name="dimen_54dp">54dp</dimen>
+    <dimen name="dimen_68dp">68dp</dimen>
+    <dimen name="dimen_66dp">66dp</dimen>
+    <dimen name="dimen_64dp">64dp</dimen>
+    <dimen name="dimen_60dp">60dp</dimen>
+    <dimen name="dimen_70dp">70dp</dimen>
+    <dimen name="dimen_72dp">72dp</dimen>
+    <dimen name="dimen_74dp">74dp</dimen>
+    <dimen name="dimen_76dp">76dp</dimen>
+    <dimen name="dimen_78dp">78dp</dimen>
+    <dimen name="dimen_84dp">84dp</dimen>
+    <dimen name="dimen_80dp">80dp</dimen>
+    <dimen name="dimen_88dp">88dp</dimen>
+    <dimen name="dimen_90dp">90dp</dimen>
+    <dimen name="dimen_94dp">94dp</dimen>
+    <dimen name="dimen_96dp">96dp</dimen>
+    <dimen name="dimen_100dp">100dp</dimen>
+    <dimen name="dimen_104dp">104dp</dimen>
+    <dimen name="dimen_110dp">110dp</dimen>
+    <dimen name="dimen_116dp">116dp</dimen>
+    <dimen name="dimen_120dp">120dp</dimen>
+    <dimen name="dimen_126dp">126dp</dimen>
+    <dimen name="dimen_140dp">140dp</dimen>
+    <dimen name="dimen_150dp">150dp</dimen>
+    <dimen name="dimen_160dp">160dp</dimen>
+    <dimen name="dimen_180dp">180dp</dimen>
+    <dimen name="dimen_196dp">196dp</dimen>
+    <dimen name="dimen_200dp">200dp</dimen>
+    <dimen name="dimen_206dp">206dp</dimen>
+    <dimen name="dimen_230dp">230dp</dimen>
+    <dimen name="dimen_240dp">240dp</dimen>
+    <dimen name="dimen_260dp">260dp</dimen>
+    <dimen name="dimen_280dp">280dp</dimen>
+    <dimen name="dimen_290dp">290dp</dimen>
+    <dimen name="dimen_300dp">300dp</dimen>
+    <dimen name="dimen_320dp">320dp</dimen>
+    <dimen name="dimen_340dp">340dp</dimen>
+    <dimen name="dimen_500dp">500dp</dimen>
+    <dimen name="dimen_600dp">600dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <dimen name="rippleRadius">64dp</dimen>
+
+    <!--Material intro view -->
+    <dimen name="cardview_margin">24dp</dimen>
+    <dimen name="info_text_size">16sp</dimen>
+
+    <!--ShowcaseView master-->
+    <dimen name="button_margin">12dp</dimen>
+    <dimen name="text_padding">24dp</dimen>
+    <dimen name="action_bar_offset">66dp</dimen>
+    <dimen name="showcase_radius">94dp</dimen>
+    <dimen name="showcase_radius_inner">96dp</dimen>
+    <dimen name="showcase_radius_outer">128dp</dimen>
+    <dimen name="showcase_radius_material">48dip</dimen>
+
+    <!--FAB-->
+    <dimen name="min_item_width">0dp</dimen>
+    <dimen name="default_text_size">14sp</dimen>
+    <dimen name="default_item_margin">2dp</dimen>
+    <dimen name="default_item_padding">4dp</dimen>
+    <dimen name="default_row_margin">2dp</dimen>
+    <dimen name="action_button_size">90dp</dimen>
+    <dimen name="action_menu_radius">120dp</dimen>
+    <dimen name="action_button_content_margin">16dp</dimen>
+    <dimen name="action_button_margin">12dp</dimen>
+    <dimen name="sub_action_button_size">80dp</dimen>
+    <dimen name="sub_action_button_content_margin">6dp</dimen>
+
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:id="@+id/engage_section2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="UselessParent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_30dp"
+                    android:layout_marginTop="@dimen/dimen_24dp"
+                    android:background="@color/white"
+                    />
+
+                <FrameLayout
+                    android:id="@+id/fra"
+                    android:layout_width="@dimen/dimen_54dp"
+                    android:layout_height="@dimen/dimen_54dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/circle_half">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="UselessParent">
+
+                        <ImageView
+                            android:id="@+id/engage_image"
+                            android:layout_width="@dimen/dimen_54dp"
+                            android:layout_height="@dimen/dimen_54dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/engage_icon_state"
+                            tools:ignore="ContentDescription" />
+
+                    </RelativeLayout>
+                </FrameLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/engage_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/engage_section2"
+            android:background="@color/white"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/eng_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/medicine_list_text"
+                android:textSize="@dimen/text_8sp"
+                android:paddingBottom="2dp"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
